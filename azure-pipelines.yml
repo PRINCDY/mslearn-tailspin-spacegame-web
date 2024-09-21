@@ -1,7 +1,3 @@
 pool: MyAgentPool
-- task: AzureCLI@2
-  inputs:
-    scriptLocation: 'scriptPath'
-    scriptPath: 
 steps:
 - bash: echo hello world
